@@ -1,0 +1,8 @@
+a=int(input('Amount Deposited : ',))
+Amount_after_one_year=int((a+(a*0.1)))
+Amount_after_second_year=int((Amount_after_one_year+(Amount_after_one_year*0.1)))
+Amount_after_third_year=int((Amount_after_second_year+(a*0.1)))
+print('Amount Deposited :',a)
+print('Amount after one Year :',Amount_after_one_year)
+print('Amount after second Year :',Amount_after_second_year)
+print('Amount after third Year :',Amount_after_third_year)

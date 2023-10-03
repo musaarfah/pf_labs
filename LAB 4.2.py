@@ -1,0 +1,22 @@
+amount_deposited=int(input('Amount Deposited :'))
+if amount_deposited<=500000:
+    compound_interest=int((7*amount_deposited)/100)
+    amount_after_one_year=int(amount_deposited+compound_interest)
+    compound_interest1=int((7*amount_after_one_year)/100)
+    amount_after_second_year=int(amount_after_one_year+compound_interest1)
+    compound_interest2 = int((7 * amount_after_second_year) / 100)
+    amount_after_third_year = int(amount_after_second_year + compound_interest2)
+    print('Amount after one Year = ',amount_after_one_year)
+    print('Amount after second Year = ',amount_after_second_year)
+    print('Amount after third Year = ',amount_after_third_year)
+if amount_deposited>500000:
+    compound_interest=int((10*amount_deposited)/100)
+    amount_after_one_year=int(amount_deposited+compound_interest)
+    compound_interest1=int((10*amount_after_one_year)/100)
+    amount_after_second_year=int(amount_after_one_year+compound_interest1)
+    compound_interest2 = int((10 * amount_after_second_year) / 100)
+    amount_after_third_year = int(amount_after_second_year + compound_interest2)
+    print('Amount after one Year = ',amount_after_one_year)
+    print('Amount after second Year = ',amount_after_second_year)
+    print('Amount after third Year = ',amount_after_third_year)
+
